@@ -1,0 +1,37 @@
+day 3
+
+
+collection datatype :
+
+1.list
+	* mutable
+	. list replace by [] brackets
+	wha
+
+
+1]
+mylist = ["bhavani","magadum","rakshita","bedage","bhavani",77,"hit",60.52,"ece"]
+print(mylist)
+print(type(mylist))
+print(mylist[0])
+print(mylist[1])
+print(mylist[2])
+print(mylist[-1])
+print(mylist[2:5])
+print(mylist[:5])
+print(mylist[1:8:2])
+print(mylist[:])
+print(mylist[::-1])
+
+
+
+
+>to add some value we use append commanda.
+
+program:
+mylist = ["bhavani","rakshita","poorva",77,"hit","ece",77.07]
+print(mylist)
+
+mylist.append('bhakti')
+mylist.append('sanjana')
+print(mylist)
