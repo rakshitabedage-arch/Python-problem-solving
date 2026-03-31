@@ -404,7 +404,7 @@ collection datatype :
 
 1.list
 
-&#x09;\* mutable
+x09;\* mutable
 
 &#x09;. list replace by \[] brackets
 
@@ -1140,15 +1140,15 @@ B=\[2,3,4]
 
 C=\[3,4,5]
 
-\# result=list(set(A)\&set(B)\&set(C))
+ result=list(set(A)\&set(B)\&set(C))
 
-\# print(result)
+   print(result)
 
 for i in A:#i=
 
-&#x20; if i in B and i in C:
+x20; if i in B and i in C:
 
-&#x20;     print(i)
+x20;     print(i)
 
 
 
@@ -1180,15 +1180,15 @@ i=1 #i=1
 
 while i<=10:
 
-&#x20;   if i%2==0:
+x20;   if i%2==0:
 
-&#x20;       even=even+1
+x20;       even=even+1
 
-&#x20;   else:
+x20;   else:
 
-&#x20;       odd=odd+1
+x20;       odd=odd+1
 
-&#x20;   i=i+1
+x20;   i=i+1
 
 print("Even=",even)
 
@@ -1216,11 +1216,11 @@ sum=0
 
 while i<=10:
 
-&#x20;   sum=sum+i
+x20;   sum=sum+i
 
-&#x20;   i=i+1
+x20;   i=i+1
 
-&#x20;   print("sum=",sum)
+x20;   print("sum=",sum)
 
 
 
@@ -1228,11 +1228,11 @@ while i<=10:
 
 for i,j in zip(range(1,6),range(5,0,-1)):#i=6,j=0
 
-&#x20;   if i == 3 and j == 3:
+x20;   if i == 3 and j == 3:
 
-&#x20;         continue
+x20;         continue
 
-&#x20;   print(i,"",j)
+x20;   print(i,"",j)
 
 
 
