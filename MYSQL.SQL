@@ -258,12 +258,7 @@ mysql> select lpad('Help4code','64','_') from dual;
 +------------------------------------------------------------------+
 1 row in set (0.05 sec)
 
-mysql> select REPLACE('111apsmicrotech111','111') from dual;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from dual' at line 1
-mysql> select REPLACE('111apsmicrotech111', '111') from dual;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from dual' at line 1
-mysql> select REPLACE('111apsmicrotech111','111') from dual;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') from dual' at line 1
+
 mysql> select REVERSE('HELP4CODE.COM') from dual;
 +--------------------------+
 | REVERSE('HELP4CODE.COM') |
